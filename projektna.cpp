@@ -116,7 +116,18 @@ int main()
 		cout << endl;
 	}
 	while(h < m);
-
+	
+	cout << "V celotnem ciklu RNG-ja se" << endl;
+	cout << "\nEna pojavi " << I << " krat." << endl;
+	cout << "\nDva pojavi " << II << " krat." << endl;
+	cout << "\nTri pojavi " << III << " krat." << endl;
+	cout << "\nStiri pojavi " << IV << " krat." << endl;
+	cout << "\nPet pojavi " << V << " krat." << endl;
+	cout << "\nSest pojavi " << VI << " krat." << endl;
+	cout << "\nSedem pojavi " << VII << " krat." << endl;
+	cout << "\nOsem pojavi " << VIII << " krat." << endl;
+	cout << "\nDevet pojavi " << IX << " krat." << endl;
+	cout << "\nDeset pojavi " << X << " krat." << endl;
 	
 	return 0;
 }
