@@ -5,6 +5,8 @@
 
 using namespace std;
 
+int vod(int, int, int);
+
 int main()
 {
 	srand(time(0));
@@ -143,40 +145,8 @@ int main()
 	cout << "\nEna:     |  ";
 	do
 	{
-		if (h == 0)
-		{
-		cout << ena[h];
-		s = ena[h];
-		}
-
-		else
-		{
-		cout << ena[h]-ena[h-1];	
-		s = ena[h]-ena[h-1];
-		}
-
-		if (h < 9)
-		{	
-			if(s > 9)
-			{
-			cout << " |  ";
-			}
-			else
-			{
-			cout << "  |  ";
-			}
-		}
-		else 
-		{
-			if (s > 9)
-			{
-			cout << "  |  ";
-			}
-			else
-			{
-			cout << "   |  ";
-			}
-		}
+		
+		
 		h++;
 	}
 	while(h < m);
