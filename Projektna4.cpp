@@ -146,7 +146,6 @@ int main()
 	do
 	{
 		
-		
 		h++;
 	}
 	while(h < m);
